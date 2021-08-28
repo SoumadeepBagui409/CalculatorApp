@@ -13,7 +13,7 @@ for(let button of buttons){
             try{
                 display.value=eval(display.value);
             }catch(e){
-                console.log(e);
+                console.log(e.message);
                 display.value="Error";
             }
             
